@@ -1,0 +1,249 @@
+/* 
+**********************************************************************************************************
+    Copyright (c) 2021 Abasas Technologies Inc.
+********************************************************************************************************** 
+
+Template Name: Abasas Fashion - Business Portfolio HTML Template
+Version: 1.0.0
+Author: Ruhul Amin */
+
+
+
+/*----------------------------------------------------------------------------------
+ common css start
+----------------------------------------------------------------------------------*/
+.st_section{
+	float:left;
+	width:100%;
+}
+.full_width{
+	float:left;
+	width:100%;
+}
+.st_thumb{
+	float:left;
+	width:100%;
+	position:relative;
+	overflow:hidden;
+}
+.plus_circle {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    background-color: #00c683;
+    border-radius: 100%;
+    text-align: center;
+    color: #ffffff;
+	position:relative;
+	transition:all ease-in-out 0.25s;
+	-webkit-transition:all ease-in-out 0.25s;
+	-moz-transition:all ease-in-out 0.25s;
+	-o-transition:all ease-in-out 0.25s;
+}
+.plus_circle > span {
+    width: 30px;
+    height: 2px;
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -15px;
+	transition:all ease-in-out 0.25s;
+	-webkit-transition:all ease-in-out 0.25s;
+	-moz-transition:all ease-in-out 0.25s;
+	-o-transition:all ease-in-out 0.25s;
+	
+}
+.plus_circle > span:first-child {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+.pad_0{
+	padding:0px;
+}
+.pad_t_b_40{
+	padding:40px 0px;
+}
+.pad_t_50{
+	padding-top:50px;
+}
+.pad_b_50{
+	padding-bottom:50px;
+}
+.pad_t_b_50{
+	padding:50px 0px;
+}
+
+.pad_t_90{
+	padding-top:90px;
+}
+.pad_b_90{
+	padding-bottom:90px;
+}
+.pad_t_b_90{
+	padding:90px 0px;
+}
+
+.pad_t_100{
+	padding-top:100px;
+}
+.pad_b_100{
+	padding-bottom:100px;
+}
+.pad_t_b_100{
+	padding:100px 0px;
+}
+a:focus,
+button:focus ,
+input:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+.green_btn{
+	background-color:#00c683;
+	color:#ffffff;
+	display:inline-block;
+}
+
+/* animation css start */
+.st_navigation ul li a,
+.widget ul li a{
+	transition:all ease-in-out 0.25s;
+	-webkit-transition:all ease-in-out 0.25s;
+	-moz-transition:all ease-in-out 0.25s;
+	-o-transition:all ease-in-out 0.25s;
+}
+
+
+.animation{
+	transition:all ease-in-out 0.25s;
+	-webkit-transition:all ease-in-out 0.25s;
+	-moz-transition:all ease-in-out 0.25s;
+	-o-transition:all ease-in-out 0.25s;
+}
+
+
+.st_sector:before,
+.read_m_btn,
+.read_m_btn:after{
+	transition:all ease-in-out 0.25s;
+	-webkit-transition:all ease-in-out 0.25s;
+	-moz-transition:all ease-in-out 0.25s;
+	-o-transition:all ease-in-out 0.25s;
+}
+.st_thumb img,
+.price_box a,
+.text_box a{
+	transition:all ease-in-out 0.25s;
+	-webkit-transition:all ease-in-out 0.25s;
+	-moz-transition:all ease-in-out 0.25s;
+	-o-transition:all ease-in-out 0.25s;
+	backface-visibility:hidden;
+}
+/* animation css start */
+
+/* placehoder css start */
+input::-webkit-input-placeholder {
+	color:#ffffff; 
+}
+input:-moz-placeholder { /* Firefox 18- */
+	color:#ffffff;  
+}
+input::-moz-placeholder {  /* Firefox 19+ */
+	color:#ffffff;  
+}
+
+input:-ms-input-placeholder {  
+   color:#ffffff;  
+}
+
+.help_input::-webkit-input-placeholder {
+	color:#ababab; 
+}
+.help_input:-moz-placeholder { /* Firefox 18- */
+	color:#ababab;  
+}
+.help_input::-moz-placeholder {  /* Firefox 19+ */
+	color:#ababab;  
+}
+.help_input:-ms-input-placeholder { 
+   color:#ababab;  
+}
+
+/* placehoder css end */
+
+/* footer form light placeholder css*/
+.footer_frm_light input::-webkit-input-placeholder {
+	color:#1e1e1e; 
+}
+.footer_frm_light input:-moz-placeholder { /* Firefox 18- */
+	color:#1e1e1e;  
+}
+.footer_frm_light input::-moz-placeholder {  /* Firefox 19+ */
+	color:#1e1e1e;  
+}
+.footer_frm_light input:-ms-input-placeholder { 
+   color:#1e1e1e;  
+}
+/* footer form light placeholder css*/
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*----------buttton css start---------*/
+.read_m_btn {
+    display:inline-block;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+	font-weight:bold;
+	line-height: 38px;
+    height: 40px;
+    line-height: 38px;
+    border: 2px solid transparent;
+    padding: 0 25px;
+    border-radius: 2px;
+	position:relative;
+	z-index:1;
+}
+.read_m_btn:after {
+    position: absolute;
+    content: "";
+	border-radius: 2px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00c683;
+    z-index: -1;
+}
+
+.read_m_btn:hover:after {
+    transform: scale3d(0.9, 0.9, 0.9);
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    -ms-transform: scale3d(0.9, 0.9, 0.9);
+    -o-transform: scale3d(0.9, 0.9, 0.9);
+    -moz-transform: scale3d(0.9, 0.9, 0.9);
+    opacity: 0;
+}
+.read_m_btn:hover {
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+/*----------buttton css end---------*/
+/*----------------------------------------------------------------------------------
+common css end
+----------------------------------------------------------------------------------*/
+

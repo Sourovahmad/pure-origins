@@ -1,0 +1,29 @@
+/* Montserrat font*/
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat-Regular'), 
+  url(../fonts/Montserrat/Montserrat-Regular.html) format('woff2'),
+  url(../fonts/Montserrat/Montserrat-Regular.woff) format('woff'),
+  url(../fonts/Montserrat/Montserrat-Regular.ttf) format('truetype');
+}
+/* latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat-Bold'), 
+  url(../fonts/Montserrat/Montserrat-Bold.html) format('woff2'),
+  url(../fonts/Montserrat/Montserrat-Bold.woff) format('woff'),
+  url(../fonts/Montserrat/Montserrat-Bold.ttf) format('truetype');
+}
+
+/* aller fonts  */
+@font-face{
+  font-family: aller;
+  src: url('../fonts/aller/Aller_Rg.html'); /* IE9 Compat Modes */
+  src:url('../fonts/aller/Aller_Rg.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/aller/Aller_Rg.ttf')  format('truetype') /* Safari, Android, iOS */
+
+}
